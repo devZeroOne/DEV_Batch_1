@@ -1,0 +1,38 @@
+.section {
+  background: gray;
+  height: 400px;
+
+  display: grid;
+
+  justify-items: center;
+  align-items: center;
+
+  grid-template-columns: 1fr 1fr;
+
+  position: relative;
+}
+
+.div {
+  /* align-self: start; */
+  width: 100px;
+  background: red;
+  height: 100px;
+  text-align: center;
+}
+
+.div1 {
+  /* align-self: end;
+  justify-self: start; */
+  position: absolute;
+/* border-radius: 50%; */
+
+top:0;
+left:50px;
+}
+
+
+
+
+
+
+
