@@ -108,10 +108,10 @@ var name = myFunc(arr)
 
 
 
-// problem 2: Find second largest number from array
+// problem 2: Find second lowest number from array
 
+// way 1 ###########
 // var arr2 = [1,3,5,7]
-
 // var myFunc =()=>{ }
 
 // var result = arr2.sort((a, b) => {
@@ -119,7 +119,28 @@ var name = myFunc(arr)
 // })
 // console.log(result[1]);
 
+// way 2 ###########
 
+
+var arr2 = [666, 77, 66, 22, 88, 77, 11, 65, 99, 100]
+function searchSecondLowestNumber() {
+    var lowest = arr2[0]
+    var secLowest = arr2[0]
+    for (var x = 0; x < arr2.length; x++) {
+
+        if (lowest > arr2[x]) {
+            secLowest = lowest
+
+            lowest = arr2[x]
+
+        } else if (lowest < arr2[x] && secLowest >= arr2[x]) {
+            secLowest = arr2[x]
+        }
+    }
+    return secLowest
+}
+
+console.log(searchSecondLowestNumber(arr2));
 
 // problem: 3: make a sokka
 
