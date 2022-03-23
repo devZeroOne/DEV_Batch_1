@@ -1,0 +1,88 @@
+/* 
+.first{
+    color:rgb(255, 174, 0);
+}
+
+h1{
+    color:rgb(140, 0, 255);
+}
+
+#di1{
+    color:rgb(255, 0, 21);
+} 
+
+.dublbe_bai_1 {
+  color: red;
+  background-color: green;
+  height: 200px;
+  width: 50%;
+
+  background-image:url("./img.jpg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 5px solid red;
+  border-radius: 50%;
+   opacity: 0.9; 
+  
+font-size: 45px;
+font-weight: 900; 
+
+   margin-bottom: 50px;
+padding-top: 50px; 
+
+  margin: 10px 20px 10px 50px;
+
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+
+
+
+  display: none;
+}
+
+.dublbe_bai_2 {
+  background-color: rgb(224, 117, 16);
+  height: 200px;
+  width: 50%;
+}
+
+.child {
+  background-color: rgb(224, 117, 16);
+  height: 100px;
+  width: 60%;
+  margin-top: 50px;
+}
+*/
+.bai {
+  /* list-style: none; */
+  list-style-type: lower-roman;
+} 
+
+.div1 {
+  width: 40%;
+  background-color: red;
+  height: 200px;
+  float: left;
+}
+.div2 {
+  width: 40%;
+  background-color: rgb(0, 255, 21);
+  height: 200px;
+  float: right;
+  margin-bottom: 50px;
+}
+.main {
+  margin-bottom: 50px;
+}
+.main2 {
+  margin-top: 50px;
+  width: 100%;
+  background-color: rgb(52, 10, 238);
+  height: 200px;
+  clear: both;
+
+}
+
+

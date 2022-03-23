@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+  background: rgb(54, 230, 221);
+  padding: 20px 100px;
+  /* width: 100%; */
+
+}
+
+input,
+textarea {
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  margin: 5px;
+  border: none;
+  outline: none;
+}
+.inp {
+  /* width: 50%; */
+}
+.div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+
+.section2{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: red;
+    height: 100px;
+    overflow:hidden;
+}

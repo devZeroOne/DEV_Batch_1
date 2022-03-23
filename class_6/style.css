@@ -1,0 +1,105 @@
+/*
+.main_div {
+  background: red;
+  height: 200px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+
+}
+div {
+  height: 100px;
+  width: 800px;
+  background: black;
+  text-align: center;
+}
+.div1 {
+  background: rgb(19, 167, 130);
+  order: 3;
+
+}
+.div2 {
+  background: rgb(140, 167, 19);
+  order: 1;
+}
+.div3 {
+  background: rgb(167, 19, 123);
+  order: 2;
+}
+
+
+p{
+    background: red;
+    overflow: hidden;
+    font-size: 5px;
+    
+}
+
+*/
+
+/* gird design */
+
+.main_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  height: 200px;
+  background: black;
+
+  /* place-items: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+}
+
+div {
+  height: 100px;
+  /* width: 100%; */
+}
+.div1 {
+  background: red;
+  /* width: 100px; */
+  justify-items: center;
+}
+
+.div2 {
+  background: rgb(9, 255, 0);
+  /* width: 100px; */
+}
+
+.div3 {
+  background: rgb(255, 230, 0);
+}
+
+.div4 {
+  background: rgb(255, 0, 157);
+}
+
+h1{
+    font-family: 'Festive', cursive;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+    /* mobile devise */
+  .main_div {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 786px) {
+    /* tablets devise */
+  .main_div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* laptop devise */
+  .main_div {
+    grid-template-columns: 1fr;
+  }
+}
+
+

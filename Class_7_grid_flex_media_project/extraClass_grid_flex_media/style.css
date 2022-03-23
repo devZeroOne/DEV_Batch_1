@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  /* background-color: rgb(206, 206, 206); */
+  width: 100%;
+  height: 100vh;
+}
+.child {
+  width: 100px;
+  height: 150px;
+  background-color: aqua;
+  border: 2px solid black;
+}
+.parent {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr ; */
+  /* grid-template-rows: 1fr; */
+  /* grid-gap:30px ; */
+  /* justify-items: center;
+  align-items: center; */
+
+  /* grid-template-areas:
+    "A A A B"
+    "C C D D"
+    "E F G G"; */
+}
+
+/* .child_1 {
+  grid-area: A;
+}
+.child_2 {
+  grid-area: B;
+}
+.child_3 {
+  grid-area: C;
+}
+.child_4 {
+  grid-area: D;
+}
+.child_5 {
+  grid-area: E;
+}
+.child_6 {
+  grid-area: F;
+}
+.child_7 {
+  grid-area: G;
+} */
+/* .child_3{
+    justify-self: center;
+    align-self: start;
+} */
+
+/* @media only screen and (max-width:480px) {
+    .parent {
+        grid-template-areas:
+          "A A"
+          "B F"
+          "C ."
+          "D E"
+          "G ."
+         ;
+      }
+} */
+
+/* FLEX */
+
+/* 
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+} */
+
+.div {
+  /* flex-direction: row | row-reverse | column | column-reverse; */
+
+  display: flex;
+  /* flex-direction: row; */
+
+  background-image: url("./1.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  padding: 100px;
+}
+

@@ -1,0 +1,9 @@
+:root{
+    --color_red: red;
+}
+
+
+.header{
+    background: var(--color_red);
+}
+
